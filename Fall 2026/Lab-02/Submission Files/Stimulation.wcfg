@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="stimulation_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="stimulation" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="265.001 ns"></ZoomEndTime>
+      <Cursor1Time time="14.200 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="106"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject type="array" fp_name="/stimulation/sw">
+      <obj_property name="ElementShortName">sw[9:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[9:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/stimulation/seg">
+      <obj_property name="ElementShortName">seg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg[6:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>
