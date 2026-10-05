@@ -1,0 +1,46 @@
+
+### `.gitignore`
+
+```gitignore
+# Vivado generated files
+*.jou
+*.log
+*.str
+*.rpt
+*.dcp
+*.wdb
+*.pb
+*.xml
+
+# Vivado generated directories
+.cache/
+.hw/
+.ip_user_files/
+.sim/
+.xil/
+.gen/
+runs/
+*.runs/
+
+# Temporary files
+*.tmp
+*.backup
+*.debug
+
+# Vivado project files
+*.xpr
+*.xpr.bak
+*.xpr.user
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated bitstream
+*.bit
+*.bin
